@@ -14,7 +14,6 @@ enddate: 2019-08-30        # machine-readable end date for the workshop in YYYY-
 instructor:
   - François Michonneau
   - Miklós Koren
-  - Arieda Muço
   - András Vereckei
 helper: 
   - Douglas Lowe 
