@@ -459,7 +459,7 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-<div id="editor"> {% comment %} Start of 'Stata' section. {% endcomment %}
+<div id="stata"> {% comment %} Start of 'Stata' section. {% endcomment %}
   <h3>Stata</h3>
 
 <p>This lesson uses the statistical package <a href="https://www.stata.com/products/">Stata</a><a href="license.html">™</a>. It has been tested on Stata 15.1 MultiProcessor, but it should work on most recent versions.</p> 
