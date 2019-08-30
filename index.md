@@ -296,6 +296,10 @@ please preview your site before committing, and make sure to run
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
+  <p>
+    Please download the [zip file](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) that contains the files we will use in
+    the lesson.
+  </p>
 
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
