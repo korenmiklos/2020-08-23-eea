@@ -13,8 +13,9 @@ startdate: 2020-08-23      # machine-readable start date for the workshop in YYY
 enddate: 2020-08-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor:
   - Miklós Koren
-helper: 
+  - Arieda Muço
   - András Vereckei 
+helper: 
 email: ["korenm@ceu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://app.slack.com/client/T016NF347U7/C016NF34M8X
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -192,7 +193,7 @@ e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">Slack workspace</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
