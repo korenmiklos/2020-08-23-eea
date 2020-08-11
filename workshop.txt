@@ -1,0 +1,213 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/koren/Downloads/workshop.txt
+  log type:  smcl
+ opened on:  11 Aug 2020, 15:11:43
+
+. d
+
+Contains data
+  obs:           100                          
+ vars:            25                          
+-------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------
+var1            double  %8.0g                 
+var2            long    %8.0g                 
+var3            str19   %19s                  
+var4            str19   %19s                  
+var5            str15   %15s                  
+var6            byte    %8.0g                 
+var7            byte    %8.0g                 
+var8            byte    %8.0g                 
+var9            byte    %8.0g                 
+want_shell      str19   %19s                  Using the Unix shell
+want_git        str19   %19s                  Version control with git
+want_data       str19   %19s                  Data wrangling with Stata
+want_code       str19   %19s                  Programming with Stata
+know_shell      str59   %59s                  Using the Unix shell
+know_git        str59   %59s                  Version control with git
+know_data       str59   %59s                  Data wrangling with Stata
+know_code       str59   %59s                  Programming with Stata
+openendedresp~e str425  %425s                 Open-Ended Response
+q1              str10   %10s                  Response
+q2              str28   %28s                  Response
+q3              str176  %176s                 Open-Ended Response
+email           str46   %46s                  Open-Ended Response
+q1_correct      float   %9.0g                 
+q2_correct      float   %9.0g                 
+q3_correct      float   %9.0g                 
+-------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+
+. tabulate want_shell 
+
+     Using the Unix |
+              shell |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+     Not interested |         49       49.00       49.00
+Somewhat interested |         32       32.00       81.00
+    Very interested |         19       19.00      100.00
+--------------------+-----------------------------------
+              Total |        100      100.00
+
+. tabulate want_git
+
+    Version control |
+           with git |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+     Not interested |         18       18.00       18.00
+Somewhat interested |         39       39.00       57.00
+    Very interested |         43       43.00      100.00
+--------------------+-----------------------------------
+              Total |        100      100.00
+
+. tabulate want_data
+
+Data wrangling with |
+              Stata |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+     Not interested |          2        2.00        2.00
+Somewhat interested |         16       16.00       18.00
+    Very interested |         82       82.00      100.00
+--------------------+-----------------------------------
+              Total |        100      100.00
+
+. tabulate want_code
+
+   Programming with |
+              Stata |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+Somewhat interested |          7        7.00        7.00
+    Very interested |         93       93.00      100.00
+--------------------+-----------------------------------
+              Total |        100      100.00
+
+. tabulate know_shell 
+
+                   Using the Unix shell |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Amateur (already doing some of this b.. |          7        7.00        7.00
+                   Doing this routinely |          1        1.00        8.00
+                  Don’t know what it is |         68       68.00       76.00
+                                 Novice |         24       24.00      100.00
+----------------------------------------+-----------------------------------
+                                  Total |        100      100.00
+
+. tabulate know_git
+
+               Version control with git |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Amateur (already doing some of this b.. |         18       18.00       18.00
+                   Doing this routinely |          1        1.00       19.00
+                  Don’t know what it is |         45       45.00       64.00
+                                 Novice |         36       36.00      100.00
+----------------------------------------+-----------------------------------
+                                  Total |        100      100.00
+
+. tabulate know_data
+
+              Data wrangling with Stata |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Amateur (already doing some of this b.. |         36       36.00       36.00
+                   Doing this routinely |         45       45.00       81.00
+                  Don’t know what it is |          6        6.00       87.00
+                                 Novice |         13       13.00      100.00
+----------------------------------------+-----------------------------------
+                                  Total |        100      100.00
+
+. tabulate know_code
+
+                 Programming with Stata |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Amateur (already doing some of this b.. |         37       37.00       37.00
+                   Doing this routinely |         39       39.00       76.00
+                  Don’t know what it is |          1        1.00       77.00
+                                 Novice |         23       23.00      100.00
+----------------------------------------+-----------------------------------
+                                  Total |        100      100.00
+
+. tabulate q1_correct 
+
+ q1_correct |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         59       59.00       59.00
+          1 |         41       41.00      100.00
+------------+-----------------------------------
+      Total |        100      100.00
+
+. tabulate q2_correct 
+
+ q2_correct |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         27       27.00       27.00
+          1 |         73       73.00      100.00
+------------+-----------------------------------
+      Total |        100      100.00
+
+. tabulate q3_correct 
+
+ q3_correct |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         38       38.00       38.00
+          1 |         62       62.00      100.00
+------------+-----------------------------------
+      Total |        100      100.00
+
+. log close
+      name:  <unnamed>
+       log:  /Users/koren/Downloads/workshop.txt
+  log type:  smcl
+ closed on:  11 Aug 2020, 15:13:34
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/koren/Downloads/workshop.txt
+  log type:  smcl
+ opened on:  11 Aug 2020, 15:15:20
+
+. tabulate know_shell q2_correct 
+
+                      |      q2_correct
+ Using the Unix shell |         0          1 |     Total
+----------------------+----------------------+----------
+Amateur (already do.. |         0          7 |         7 
+ Doing this routinely |         0          1 |         1 
+Don’t know what it is |        23         45 |        68 
+               Novice |         4         20 |        24 
+----------------------+----------------------+----------
+                Total |        27         73 |       100 
+
+. tabulate know_data q1_correct 
+
+  Data wrangling with |      q1_correct
+                Stata |         0          1 |     Total
+----------------------+----------------------+----------
+Amateur (already do.. |        22         14 |        36 
+ Doing this routinely |        24         21 |        45 
+Don’t know what it is |         4          2 |         6 
+               Novice |         9          4 |        13 
+----------------------+----------------------+----------
+                Total |        59         41 |       100 
+
+. tabulate know_code q3_correct 
+
+     Programming with |      q3_correct
+                Stata |         0          1 |     Total
+----------------------+----------------------+----------
+Amateur (already do.. |        12         25 |        37 
+ Doing this routinely |        19         20 |        39 
+Don’t know what it is |         1          0 |         1 
+               Novice |         6         17 |        23 
+----------------------+----------------------+----------
+                Total |        38         62 |       100 
+
+. log close
+      name:  <unnamed>
+       log:  /Users/koren/Downloads/workshop.txt
+  log type:  smcl
+ closed on:  11 Aug 2020, 15:16:50
+-------------------------------------------------------------------------------
+
