@@ -9,9 +9,9 @@ Use [this link to join our Slack team](). Please set your display name to your f
 ## Channels
 When joining, you will become a member of the following channels:
 - #welcome: This is where we share general messages and instructions. Feel free (but not obliged) to say a few words about yourself to your fellow learners.
-- #shell: This where you can post shell-related questions which our awesome helpers will answer. We also encouraging helping one another.
-- #git: This where you can post git-related questions which our awesome helpers will answer. We also encouraging helping one another.
-- #stata: This where you can post Stata-related questions which our awesome helpers will answer. We also encouraging helping one another.
+- #shell: This where you can post shell-related questions which our awesome helpers will answer. We also encourage helping one another.
+- #git: This where you can post git-related questions which our awesome helpers will answer. We also encourage helping one another.
+- #stata: This where you can post Stata-related questions which our awesome helpers will answer. We also encourage helping one another.
 - #coffee: This is where we can hang out in between sessions.
 
 ## Find your Zoom room
@@ -25,5 +25,8 @@ Throughout the workshop, we will be using `bash`, `git` and `Stata`. All three w
 If you get stuck during installation, ask a question on the respective [Slack channel]() or join one of the [installation clinics]() we are offering before the workshop.
 
 Bash and Git are open source software, but Stata requires a license. We will be using Stata 16 Special Edition, but Stata 14 and up should also work fine. If you do not have Stata on your computer, ask for a free teaching version in the [#stata channel on Slack](). You will be able to use it until September 1.
+
+## Sign up for GitHub
+We will be using Git and GitHub for version control. If you don't yet have a GitHub account, [sign up here](https://github.com/join) *before* the workshop.
 
 # Installation clinics
