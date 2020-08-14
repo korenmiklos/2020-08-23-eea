@@ -10,7 +10,7 @@ Use [this link to join our Slack team](). Please set your display name to your f
 When joining, you will become a member of the following channels:
 - #welcome: This is where we share general messages and instructions. Feel free (but not obliged) to say a few words about yourself to your fellow learners.
 - #shell: This where you can post shell-related questions which our awesome helpers will answer. We also encouraging helping one another.
-- #shell: This where you can post git-related questions which our awesome helpers will answer. We also encouraging helping one another.
+- #git: This where you can post git-related questions which our awesome helpers will answer. We also encouraging helping one another.
 - #stata: This where you can post Stata-related questions which our awesome helpers will answer. We also encouraging helping one another.
 - #coffee: This is where we can hang out in between sessions.
 
