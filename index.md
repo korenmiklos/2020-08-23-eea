@@ -498,7 +498,7 @@ please preview your site before committing, and make sure to run
 <div id="stata"> {% comment %} Start of 'Stata' section. {% endcomment %}
   <h3>Stata</h3>
 
-<p>This lesson uses the statistical package <a href="https://www.stata.com/products/">Stata</a><a href="license.html">™</a>. It has been tested on Stata 15.1 MultiProcessor, but it should work on most recent versions.</p> 
+<p>This lesson uses the statistical package <a href="https://www.stata.com/products/">Stata</a><a href="license.html">™</a>. It has been tested on Stata 16.1 MultiProcessor, but it should work on most recent versions.</p> 
 <p>If you do not have a Stata license, please let your instructor know so that they can request a <a href="https://www.stata.com/customer-service/course-short-term-license/">short-term training license</a> for free.</p>
 <p>If you are newly installing Stata on your computer, follow these instructions.</p>
   <div>
@@ -512,49 +512,49 @@ please preview your site before committing, and make sure to run
       <article role="tabpanel" class="tab-pane active" id="stata-windows">
         <ol>
           <li>Go to https://download.stata.com/download/</li>
-          <li>Log in using your username and password</li>
+          <li>Log in using your username and password received from the instructors</li>
           <li>Click on your OS (64-bit Windows)</li>
-          <li>Download and launch the installer.</li>
+          <li>Download and launch the installer: SetupStata16.exe </li>
           <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
           <li>Enter the serial number provided and press enter</li>
           <li>Enter the code and press enter</li>
           <li>Enter the authorization and press enter</li>
           <li>It should return “Good.  The serial number, code, and authorization make sense. Shall we continue?” Type Y and press enter.</li>
-          <li>When it asks for the first line, it should say “European Economic Association”</li>
-          <li>When it asks for the second line, it should say “Manchester, UK”</li>
+          <li>When it asks for the first line, it should say “EEA”</li>
+          <li>When it asks for the second line, it should say “2020”</li>
           <li>It will ask for confirmation. Type “Y” and press enter.</li>
         </ol>
       </article>
       <article role="tabpanel" class="tab-pane active" id="stata-macos">
       <ol>
         <li>Go to https://download.stata.com/download/</li>
-        <li>Log in using your username and password</li>
+        <li>Log in using your username and password received from the instructors</li>
         <li>Click on your OS (Mac)</li>
-        <li>Download and launch the installer.</li>
+        <li>Download and launch the installer: Stata16.dmg </li>
         <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
         <li>Enter the serial number provided and press enter</li>
         <li>Enter the code and press enter</li>
         <li>Enter the authorization and press enter</li>
         <li>It should return “Good.  The serial number, code, and authorization make sense. Shall we continue?” Type Y and press enter.</li>
-        <li>When it asks for the first line, it should say “European Economic Association”</li>
-        <li>When it asks for the second line, it should say “Manchester, UK”</li>
+        <li>When it asks for the first line, it should say “EEA”</li>
+        <li>When it asks for the second line, it should say “2020”</li>
         <li>It will ask for confirmation. Type “Y” and press enter.</li>
       </ol>
       </article>
       <article role="tabpanel" class="tab-pane active" id="stata-linux">
       <ol>
         <li>Go to https://download.stata.com/download/</li>
-        <li>Log in using your username and password</li>
+        <li>Log in using your username and password received from the instructors</li>
         <li>Click on your OS (64-bit Linux)</li>
-        <li>Download <code class="highlighter-rouge">Stata15Linux64.tar.gz</code>.</li>
+        <li>Download <code class="highlighter-rouge">Stata16Linux64.tar.gz</code>.</li>
         <li>Open a terminal and navigate to the directory where your downloaded file is located (e.g. <code class="highlighter-rouge">cd ~/Downloads/</code>)</li>
         <li>Get superuser rights (<code class="highlighter-rouge">sudo su</code>)</li>
         <li>Create a new directory (e.g. <code class="highlighter-rouge">mkdir stata_install</code>)</li>
-        <li>Move the downloaded file to this new directory (<code class="highlighter-rouge">mv Stata15Linux64.tar.gz. stata_install/</code>)</li>
+        <li>Move the downloaded file to this new directory (<code class="highlighter-rouge">mv Stata16Linux64.tar.gz. stata_install/</code>)</li>
         <li>Enter the directory (<code class="highlighter-rouge">cd stata_install</code>)</li>
-        <li>Extract the installation files using <code class="highlighter-rouge">tar xzf Stata15Linux64.tar.gz</code></li>
-        <li>Create a directory for your stata installation (<code class="highlighter-rouge">mkdir /usr/local/stata15</code>)</li>
-        <li>Navigate to the stata directory (<code class="highlighter-rouge">cd /usr/local/stata15</code>)</li>
+        <li>Extract the installation files using <code class="highlighter-rouge">tar xzf Stata16Linux64.tar.gz</code></li>
+        <li>Create a directory for your stata installation (<code class="highlighter-rouge">mkdir /usr/local/stata16</code>)</li>
+        <li>Navigate to the stata directory (<code class="highlighter-rouge">cd /usr/local/stata16</code>)</li>
         <li>Start the installation by executing the extracted install file (e.g. <code class="highlighter-rouge">/home/username/Downloads/stata_install/install</code>)</li>
         <li>Whenever the installer asks if you want to proceed type “y” and press enter</li>
         <li>Once the installation is done, type <code class="highlighter-rouge">./stinit</code> to activate your licence</li>
@@ -563,8 +563,8 @@ please preview your site before committing, and make sure to run
         <li>Enter the code and press enter</li>
         <li>Enter the authorization and press enter</li>
         <li>It should return “Good.  The serial number, code, and authorization make sense. Shall we continue?” Type Y and press enter.</li>
-        <li>When it asks for the first line, it should say “European Economic Association”</li>
-        <li>When it asks for the second line, it should say “Manchester, UK”</li>
+        <li>When it asks for the first line, it should say “EEA”</li>
+        <li>When it asks for the second line, it should say “2020”</li>
         <li>It will ask for confirmation. Type “Y” and press enter.</li>
         <li>
           <p>Try to start stata by <code class="highlighter-rouge">./xstata</code>. If it gives you the following error message (<code class="highlighter-rouge">./stata: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory</code>), continue with the steps below:</p>
