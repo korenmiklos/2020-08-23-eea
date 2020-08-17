@@ -499,7 +499,7 @@ please preview your site before committing, and make sure to run
   <h3>Stata</h3>
 
 <p>This lesson uses the statistical package <a href="https://www.stata.com/products/">Stata</a><a href="license.html">™</a>. It has been tested on Stata 16.1 MultiProcessor, but it should work on most recent versions.</p> 
-<p>If you do not have a Stata license, please let your instructor know so that they can request a <a href="https://www.stata.com/customer-service/course-short-term-license/">short-term training license</a> for free.</p>
+<p>If you do not have a Stata license, please let your instructor know so that they can request a short-term training license for free.</p>
 <p>If you are newly installing Stata on your computer, follow these instructions.</p>
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -511,9 +511,7 @@ please preview your site before committing, and make sure to run
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="stata-windows">
         <ol>
-          <li>Go to https://download.stata.com/download/</li>
-          <li>Log in using your username and password received from the instructors</li>
-          <li>Click on your OS (64-bit Windows)</li>
+          <li>Go to the link given by your instructor</li>
           <li>Download and launch the installer: SetupStata16.exe </li>
           <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
           <li>Enter the serial number provided and press enter</li>
@@ -527,9 +525,7 @@ please preview your site before committing, and make sure to run
       </article>
       <article role="tabpanel" class="tab-pane active" id="stata-macos">
       <ol>
-        <li>Go to https://download.stata.com/download/</li>
-        <li>Log in using your username and password received from the instructors</li>
-        <li>Click on your OS (Mac)</li>
+        <li>Go to the link given by your instructor</li>
         <li>Download and launch the installer: Stata16.dmg </li>
         <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
         <li>Enter the serial number provided and press enter</li>
@@ -543,9 +539,7 @@ please preview your site before committing, and make sure to run
       </article>
       <article role="tabpanel" class="tab-pane active" id="stata-linux">
       <ol>
-        <li>Go to https://download.stata.com/download/</li>
-        <li>Log in using your username and password received from the instructors</li>
-        <li>Click on your OS (64-bit Linux)</li>
+        <li>Go to the link given by your instructor</li>
         <li>Download <code class="highlighter-rouge">Stata16Linux64.tar.gz</code>.</li>
         <li>Open a terminal and navigate to the directory where your downloaded file is located (e.g. <code class="highlighter-rouge">cd ~/Downloads/</code>)</li>
         <li>Get superuser rights (<code class="highlighter-rouge">sudo su</code>)</li>
