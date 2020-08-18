@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "Zoom"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "EEA Data Carpentry Workshop -- online"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "hu"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -12,10 +12,22 @@ humantime: "9:00am - 5:00pm, 9:00am - 11:00am"    # human-readable times for the
 startdate: 2020-08-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-08-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor:
+  - Erin Becker
   - Miklós Koren
+  - Olivér Kiss
   - Arieda Muço
   - András Vereckei 
 helper: 
+  - Sergio Correia
+  - Joao Santos
+  - Rachel Forshaw
+  - Garro-Marín
+  - M Nithin
+  - Xinyu Ma
+  - Charlotte Grace
+  - Pavel Soriano
+  - Benson Muite
+  - Nagy Róbert
 email: ["korenm@ceu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://app.slack.com/client/T016NF347U7/C016NF34M8X
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
