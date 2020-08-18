@@ -588,7 +588,7 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
 
-<div id="git"> {% comment %} Start of 'Screenshot' section.{% endcomment %}
+<div id="screenshot"> {% comment %} Start of 'Screenshot' section.{% endcomment %}
   <h3>Posting screenshots to Slack</h3>
   <p>
     In order to provide help in case you are stuck at any point, we will need you 
@@ -611,12 +611,15 @@ please preview your site before committing, and make sure to run
       </article>
       <article role="tabpanel" class="tab-pane active" id="screenshot-macos">
         <p>
-          MacOS description comes here.
+          To take a screenshot of your entire screen, press, at the same time, the keys <code>Shift</code>, <code>Command</code> and <code>3</code>. <img width="400px" src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/accessories/Keyboards/mac-key-combo-diagram-shift-command-3.png"/> Your screenshot will be saved on the <code>Desktop</code>. Navigate to your desktop, copy the screenshot with <code>Command</code> + <code>C</code>, and paste into Slack with <code>Command</code> + <code>V</code>.
+        </p>
+        <p>
+          If you want to capture only a part of your screen, press <code>Shift</code>, <code>Command</code> and <code>4</code>. <img width="400px" src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/accessories/Keyboards/mac-key-combo-diagram-shift-command-4.png"/> You will get a crosshair cursos with which you can select the area of the screen to save. It will be saved on the <code>Desktop</code>. Navigate to your desktop, copy the screenshot with <code>Command</code> + <code>C</code>, and paste into Slack with <code>Command</code> + <code>V</code>.
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="screenshot-linux">
         <p>
-          Simply press the  print screen (<code>PrtSc</code>) button on your keyboard. This will (on most Linux systems) 
+          Press the  print screen (<code>PrtSc</code>) button on your keyboard. This will (on most Linux systems) 
           save a screenshot to the <code>Pictures</code> folder in your home directory. You can send this file in the Slack app 
           or in its online version by clicking on the paperclip icon in the bottom right corner of the messaging area and selecting it from your computer.
         </p>
