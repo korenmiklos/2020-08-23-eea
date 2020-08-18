@@ -22,7 +22,7 @@ When joining, you will become a member of the following channels:
 ### Find your Zoom room
 Live coding will take place in two Zoom rooms, "Blue" and "Orange." Instructors in both rooms will cover the same content, and learners have been equally split between the two.
 
-You have been assigned to the Blue Room. We will share the Zoom login details closer to the workshop kickoff. Please join the [channel for your room]({{ site.data.secrets.slack.blue }}) on Slack. You can post questions here for your instructor or have a discussion with fellow learners during the live coding session. 
+You have been assigned to the Orange Room. We will share the Zoom login details closer to the workshop kickoff. Please join the [channel for your room]({{ site.data.secrets.slack.orange }}) on Slack. You can post questions here for your instructor or have a discussion with fellow learners during the live coding session. 
 
 ## Set up your computer
 Throughout the workshop, we will be using `bash`, `git` and `Stata`. All three work on all three majors platforms: Windows, Mac and Linux. Follow the [setup instructions](https://korenmiklos.github.io/2020-08-23-eea/#setup) to install these on your personal computer.
