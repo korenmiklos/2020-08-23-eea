@@ -575,3 +575,40 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
+
+<div id="git"> {% comment %} Start of 'Screenshot' section.{% endcomment %}
+  <h3>Posting screenshots to Slack</h3>
+  <p>
+    In order to provide help in case you are stuck at any point, we will need you 
+    to take screenshots of your code and send it to a helper via Slack. You can 
+    see below how you can do it depending on your operating system.
+  </p>
+
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#screenshot-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#screenshot-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#screenshot-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="screenshot-windows">
+        <p>
+          Windows description comes here.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="screenshot-macos">
+        <p>
+          MacOS description comes here.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="screenshot-linux">
+        <p>
+          Simply press the  print screen (<code>PrtSc</code>) button on your keyboard. This will (on most Linux systems) 
+          save a screenshot to the <code>Pictures</code> folder in your home directory. You can send this file in the Slack app 
+          or in its online version by clicking on the paperclip icon in the bottom right corner of the messaging area and selecting it from your computer.
+        </p>
+      </article>
+    </div>
+  </div>
+</div> {% comment %} End of 'Git' section. {% endcomment %}
