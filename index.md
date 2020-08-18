@@ -511,7 +511,7 @@ please preview your site before committing, and make sure to run
   <h3>Stata</h3>
 
 <p>This lesson uses the statistical package <a href="https://www.stata.com/products/">Stata</a><a href="license.html">™</a>. It has been tested on Stata 16.1 MultiProcessor, but it should work on most recent versions.</p> 
-<p>If you do not have a Stata license, please let your instructor know so that they can request a <a href="https://www.stata.com/customer-service/course-short-term-license/">short-term training license</a> for free.</p>
+<p>If you do not have a Stata license, please let your instructor know so that they can request a short-term training license for free.</p>
 <p>If you are newly installing Stata on your computer, follow these instructions.</p>
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -523,9 +523,7 @@ please preview your site before committing, and make sure to run
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="stata-windows">
         <ol>
-          <li>Go to https://download.stata.com/download/</li>
-          <li>Log in using your username and password received from the instructors</li>
-          <li>Click on your OS (64-bit Windows)</li>
+          <li>Go to the link given by your instructor</li>
           <li>Download and launch the installer: SetupStata16.exe </li>
           <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
           <li>Enter the serial number provided and press enter</li>
@@ -539,9 +537,7 @@ please preview your site before committing, and make sure to run
       </article>
       <article role="tabpanel" class="tab-pane active" id="stata-macos">
       <ol>
-        <li>Go to https://download.stata.com/download/</li>
-        <li>Log in using your username and password received from the instructors</li>
-        <li>Click on your OS (Mac)</li>
+        <li>Go to the link given by your instructor</li>
         <li>Download and launch the installer: Stata16.dmg </li>
         <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
         <li>Enter the serial number provided and press enter</li>
@@ -555,9 +551,7 @@ please preview your site before committing, and make sure to run
       </article>
       <article role="tabpanel" class="tab-pane active" id="stata-linux">
       <ol>
-        <li>Go to https://download.stata.com/download/</li>
-        <li>Log in using your username and password received from the instructors</li>
-        <li>Click on your OS (64-bit Linux)</li>
+        <li>Go to the link given by your instructor</li>
         <li>Download <code class="highlighter-rouge">Stata16Linux64.tar.gz</code>.</li>
         <li>Open a terminal and navigate to the directory where your downloaded file is located (e.g. <code class="highlighter-rouge">cd ~/Downloads/</code>)</li>
         <li>Get superuser rights (<code class="highlighter-rouge">sudo su</code>)</li>
@@ -593,3 +587,40 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
+
+<div id="git"> {% comment %} Start of 'Screenshot' section.{% endcomment %}
+  <h3>Posting screenshots to Slack</h3>
+  <p>
+    In order to provide help in case you are stuck at any point, we will need you 
+    to take screenshots of your code and send it to a helper via Slack. You can 
+    see below how you can do it depending on your operating system.
+  </p>
+
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#screenshot-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#screenshot-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#screenshot-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="screenshot-windows">
+        <p>
+          Windows description comes here.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="screenshot-macos">
+        <p>
+          MacOS description comes here.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="screenshot-linux">
+        <p>
+          Simply press the  print screen (<code>PrtSc</code>) button on your keyboard. This will (on most Linux systems) 
+          save a screenshot to the <code>Pictures</code> folder in your home directory. You can send this file in the Slack app 
+          or in its online version by clicking on the paperclip icon in the bottom right corner of the messaging area and selecting it from your computer.
+        </p>
+      </article>
+    </div>
+  </div>
+</div> {% comment %} End of 'Git' section. {% endcomment %}
