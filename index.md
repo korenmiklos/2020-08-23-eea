@@ -280,7 +280,7 @@ please preview your site before committing, and make sure to run
     tasks more quickly.
   </p>
   <p>
-    Please download the <a href="http://swcarpentry.github.io/shell-novice/data/data-shell.zip">zip file</a> that contains the files we will use in
+    Please download the <a href="https://zenodo.org/record/3477935/files/dc-economics-v2.0.zip?download=1">zip file</a> that contains the files we will use in
     the lesson.
   </p>
 
