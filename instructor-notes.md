@@ -9,7 +9,7 @@ Use dark font on white background and at least 18p-sized font. Set this in advan
 Zoom host can make others host or co-host. Even if host's network breaks down, meeting stays online. There are polling buttons under "Participants", which can be used to substitute for green and red stickies. Zoom aggregates poll results there, that is, you can see how many participants have voted "Yes" vs "No."
 
 ## Shell
-Before the lesson, unzip the [data file](http://swcarpentry.github.io/shell-novice/data/data-shell.zip) in the Downloads folder in your home directory.
+Before the lesson, unzip the [data file](https://zenodo.org/record/3477935/files/dc-economics-v2.0.zip?download=1) in the Downloads folder in your home directory.
 
 The key objective of this lesson is to make learners comfortable navigating the folders on their computer and accessing files from *different* folders using relative paths. It is also important that they can look into .csv files without messing them up in Excel or other spreadsheet editor. 
 
