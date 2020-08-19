@@ -606,7 +606,7 @@ please preview your site before committing, and make sure to run
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="screenshot-windows">
         <p>
-          Windows description comes here.
+          Press the  print screen (<code>FN</code> or <code>ALT</code> + <code>PrtScn</code>) button on your keyboard. You can insert into any Slack channel with <code>CTRL</code> + <code>V</code>. 
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="screenshot-macos">
