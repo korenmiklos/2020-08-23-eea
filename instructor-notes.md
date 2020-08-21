@@ -13,6 +13,10 @@ Before the lesson, unzip the [data file](https://zenodo.org/record/3477935/files
 
 The key objective of this lesson is to make learners comfortable navigating the folders on their computer and accessing files from *different* folders using relative paths. It is also important that they can look into .csv files without messing them up in Excel or other spreadsheet editor. 
 
+Before starting the lesson, make sure to remind learners to unzip the folder. In windows it might look like it's a normal folder (rather than zipped).
+
+Remind that man command does not work in Git-Bash. You should type help -- <command> instead.
+
 ### Topics and commands to cover
 
 `pwd`, `ls`, `cd`, `mkdir`, `head`, `cp`
