@@ -13,6 +13,15 @@ Before the lesson, unzip the [data file](http://swcarpentry.github.io/shell-novi
 
 The key objective of this lesson is to make learners comfortable navigating the folders on their computer and accessing files from *different* folders using relative paths. It is also important that they can look into .csv files without messing them up in Excel or other spreadsheet editor. 
 
+### Topics and commands to cover
+
+`pwd`, `ls`, `cd`, `mkdir`, `head`, `cp`
+
+1. Navigating directories with `pwd`, `cd` and `ls` (Episode 2)
+2. How to look into a .csv file with `head` (skip wildcards from Episode 3)
+3. Creating directories and copying files (stop short of permissions)
+
+
 ## Git
 We are using command line git to reinforce the concepts. At the end, you may show a GUI client to learners, but not before, so as not to confuse them.
 
@@ -21,6 +30,8 @@ The lesson is following a GitHub-based workflow. Make sure everyone has a GitHub
 We are skipping Episode 5, "Labeling Things." In practice, it is quite rare that we need to check out an old commit. We are only teaching students how to make this possible with using proper version control.
 
 Pushing and pulling (Episode 6) are importants parts of the GitHub-based workflow. If you finish early, Episode 10 about sharing repositories with others could be a good next step. 
+
+> Responsive UI
 
 ## Data Wrangling with Stata
 We are using Stata 16, but some learners may have earlier versions, so the lesson does not yet include data frames.
