@@ -47,7 +47,7 @@ We are skipping Episode 5, "Labeling Things." In practice, it is quite rare that
 
 Pushing and pulling (Episode 6) are importants parts of the GitHub-based workflow. If you finish early, Episode 10 about sharing repositories with others could be a good next step. 
 
-> ### Beware of GitHubs responsive UI
+> ### Beware of GitHub's responsive UI
 > GitHub's website has a responsive layout, which is helpful if you read it on a mobile device, but can be confusing if learners see something different than what is on your screen. Spend a minuted at the beginning to familiarize yourself and learners with the layout, the location of key links and buttons.
 {: .callout}
 
@@ -71,16 +71,16 @@ Getting this mental model across is the most important, everything else, like pa
 
 ## Roles
 ### Instructors
+Instructors share their screen while live coding. They can also take audio questions.
 
 ### Co-instructors
-Maintain order in the room. Amplify questions if necessary.
+Co-instructors are running the show in each room. They are watching questions, learner status and *keeping track of time*. They amplify questions to the instructor if necessary.
 
-Post polls.
-
+They also copy polls [from the document](https://docs.google.com/document/d/1q0iYEjvCnDmj8D-PlOpGHg214Sfq8HO4aS7bwTYJhS4/edit?usp=sharing) to the Slack channel of their room whenever it is appropriate.
 
 ### Helpers
 Learners will ask for help in the topical Slack channels. Zoom audio and hand signals may also signal that a learner is stuck, but discourage the use of Zoom chat so that all written discussion is in the same place for everyone to learn from.
 
 If you find it helpful, ask the learner to share a screenshot of their problem.
 
-Start a new thread on Slack.
+When answering to a learner question on Slack, use "*Reply in thread*" so that the discussion is available for other to check but does not pollute their Slack channel.
