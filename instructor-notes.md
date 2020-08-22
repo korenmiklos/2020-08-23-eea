@@ -13,6 +13,8 @@ Before the lesson, unzip the [data file](https://zenodo.org/record/3477935/files
 
 The key objective of this lesson is to make learners comfortable navigating the folders on their computer and accessing files from *different* folders using relative paths. It is also important that they can look into .csv files without messing them up in Excel or other spreadsheet editor. 
 
+To discourage the usage of Excel, you can refer to the current case of having to rename lots of genes because their names are read as dates in Excel, leading to many errors in genetics publications.
+
 ### Topics and commands to cover
 
 `pwd`, `ls`, `cd`, `mkdir`, `head`, `cp`
@@ -25,16 +27,28 @@ The key objective of this lesson is to make learners comfortable navigating the 
 ## Git
 We are using command line git to reinforce the concepts. At the end, you may show a GUI client to learners, but not before, so as not to confuse them.
 
+Before the lesson starts, it is useful to give a conceptual introduction to git, referring learners to tools they already know, like undo, creating copies manually and Dropbox. For example,
+
+> ### Git vs Dropbox
+> We are all familiar with the problem of saving different versions of our files to make sure that we can go back when necessary. How many of you have created copies with different file names like "manuscript_revision2_final7.tex"? (Wait for reactions.) How many has a system for this like a filename based on dates, version numbers or author initials? (Wait for reactions, likely much fewer.) How many are using Dropbox, Google Drive or a similar tool to share files with coauthors?
+> 
+> A version control system like git handles all these issues. We can save each version of a project, share it with coauthors, who will know when the version was created, who saved it and will also see a short message about what that version is about.
+>
+> A key difference to Dropbox, which shares our files automatically, is that we will have to explicitly declare that we want to save a new version. This is a bit more work, but is worth it, because our coauthors will understand better who change what when.
+{: .discussion}
+
 The lesson is following a GitHub-based workflow. Make sure everyone has a GitHub account *before* starting this lesson.
 
 We are skipping Episode 5, "Labeling Things." In practice, it is quite rare that we need to check out an old commit. We are only teaching students how to make this possible with using proper version control.
 
 Pushing and pulling (Episode 6) are importants parts of the GitHub-based workflow. If you finish early, Episode 10 about sharing repositories with others could be a good next step. 
 
-> Responsive UI
+> ### Beware of GitHubs responsive UI
+> GitHub's website has a responsive layout, which is helpful if you read it on a mobile device, but can be confusing if learners see something different than what is on your screen. Spend a minuted at the beginning to familiarize yourself and learners with the layout, the location of key links and buttons.
+{: .callout}
 
 ## Data Wrangling with Stata
-We are using Stata 16, but some learners may have earlier versions, so the lesson does not yet include data frames.
+We are using Stata 16, but some learners may have earlier versions, so the lesson does not yet include data frames. Also note that some learners may not have tab completion yet.
 
 The current working directory is am important concept to solidify in Stata, too, so make sure your screen share included this bottom line of the Stata window.
 
@@ -51,8 +65,18 @@ The key mental model to share with learners: Stata is a tool that you can use mo
 
 Getting this mental model across is the most important, everything else, like particular commands, are secondary. 
 
-## Helping learners
+## Roles
+### Instructors
+
+### Co-instructors
+Maintain order in the room. Amplify questions if necessary.
+
+Post polls.
+
+
+### Helpers
 Learners will ask for help in the topical Slack channels. Zoom audio and hand signals may also signal that a learner is stuck, but discourage the use of Zoom chat so that all written discussion is in the same place for everyone to learn from.
 
 If you find it helpful, ask the learner to share a screenshot of their problem.
 
+Start a new thread on Slack.
