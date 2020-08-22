@@ -19,7 +19,6 @@ instructor:
   - András Vereckei 
 helper: 
   - Sergio Correia
-  - Joao Santos
   - Rachel Forshaw
   - Garro-Marín
   - M Nithin
