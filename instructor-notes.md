@@ -9,11 +9,15 @@ Use dark font on white background and at least 18p-sized font. Set this in advan
 Zoom host can make others host or co-host. Even if host's network breaks down, meeting stays online. There are polling buttons under "Participants", which can be used to substitute for green and red stickies. Zoom aggregates poll results there, that is, you can see how many participants have voted "Yes" vs "No."
 
 ## Shell
-Before the lesson, unzip the [data file](https://zenodo.org/record/3477935/files/dc-economics-v2.0.zip?download=1) in the Downloads folder in your home directory.
+Before the lesson, unzip the [data file](https://zenodo.org/record/3994932/files/dc-economics-v2.1.zip?download=1) in the Downloads folder in your home directory.
 
 The key objective of this lesson is to make learners comfortable navigating the folders on their computer and accessing files from *different* folders using relative paths. It is also important that they can look into .csv files without messing them up in Excel or other spreadsheet editor. 
 
 To discourage the usage of Excel, you can refer to the current case of having to rename lots of genes because their names are read as dates in Excel, leading to many errors in genetics publications.
+
+Before starting the lesson, make sure to remind learners to unzip the folder. In windows it might look like it's a normal folder (rather than zipped).
+
+Remind that `man` command does not work in Git-Bash. You should type `help -- <command> ` instead.
 
 ### Topics and commands to cover
 
