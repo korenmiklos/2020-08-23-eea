@@ -17,7 +17,7 @@ To discourage the usage of Excel, you can refer to the current case of having to
 
 Before starting the lesson, make sure to remind learners to unzip the folder. In windows it might look like it's a normal folder (rather than zipped).
 
-Remind that `man` command does not work in Git-Bash. You should type `help -- <command> ` instead.
+Remind that `man` command does not work in Git-Bash. You should type `<command> -- help ` instead.
 
 ### Topics and commands to cover
 
